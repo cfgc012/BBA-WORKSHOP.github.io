@@ -1,0 +1,95 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.daoh {
+  width: 1200px;
+  height: 75px;
+  position: relative;
+  border-bottom: 5px solid #7fba25;
+  margin: auto;
+}
+
+.daoh>img {
+  position: absolute;
+  top: 10px;
+  left: 55px;
+}
+
+.daohlan {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 30%;
+}
+
+.daohlan li {
+  height: 100px;
+  line-height: 35px;
+  width: 125px;
+  text-align: center;
+}
+
+.ssl {
+  line-height: 7Opx !important;
+}
+
+.d-d:hover {
+  background-color: #fff;
+  color: #7fba25;
+}
+
+.daohlan a:hover {
+  color: #7fba25;
+}
+
+.banner {
+  width: 1200px;
+  height: 640px;
+  margin: auto;
+  background: url(../img/bnner.png);
+  background-size: contain;
+  margin-bottom: 0px;
+}
+
+
+
+/* 页脚 */
+.foot {
+  width: 1200px;
+  height: 1100px;
+  padding-top: 100px;
+  background-color: #7fba25;
+  margin: auto;
+  position: relative;
+
+}
+
+.erw {
+
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 62.5px;
+  justify-content: space-around;
+}
+
+.erw>p {
+  float: left;
+  z-index: 50;
+}
+
